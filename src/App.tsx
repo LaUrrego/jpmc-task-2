@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import DataStreamer, { ServerRespond } from './DataStreamer';
 import Graph from './Graph';
 import './App.css';
+// Per research on StackOverflow, import from "timers" is unnecessary. Commenting out allowed me to
+// properly render the graph.
 //import {setInterval} from "timers";
 
 /**
